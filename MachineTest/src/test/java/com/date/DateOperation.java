@@ -16,6 +16,10 @@ public class DateOperation {
 		 String month=String.valueOf(cal.get(Calendar.MONTH)+1);
 		 System.out.println(month);
 
+		 
+		 String year=String.valueOf(cal.get(Calendar.YEAR));
+		 System.out.println(year);
+
 	}
 
 }
