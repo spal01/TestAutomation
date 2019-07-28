@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.report.ExtentReport">
+      <class name="com.mc.TestFilghtBokking">
         <methods>
-          <include name="passTest2"/>
-          <include name="getResult"/>
-          <include name="skipTest"/>
-          <include name="failTest1"/>
-          <include name="endReport"/>
-          <include name="failTest2"/>
-          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.report.ExtentReport -->
+      </class> <!-- com.mc.TestFilghtBokking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

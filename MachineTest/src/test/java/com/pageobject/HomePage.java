@@ -21,11 +21,11 @@ public class HomePage {
 	@FindBy(id="source")
 	private WebElement from;
 	
-	@FindBy(xpath="//*[contains(text(),'Kolkata,Kolkata - India')]")
+	@FindBy(xpath="//*[contains(text(),'Bangalore,Bangalore - India')]")
 	private WebElement selectSource;
 	
 	//Auto suggest text for this i missed the selection
-	@FindBy(xpath="//*[contains(text(),'Delhi,Delhi - India')]")
+	@FindBy(xpath="//*[contains(text(),'Kolkata,Kolkata - India')]")
 	private WebElement selectDest;
 	
 	@FindBy(id="destination")

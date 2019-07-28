@@ -37,8 +37,8 @@ public class TestFilghtBokking {
 	
 	
 	String baseUrl="https://in.via.com/";
-	String src="Kol";
-	String dest="Del";
+	String src="Blr";
+	String dest="Kol";
 	 
 	 Actions actions;
 	 WebElement wb;
@@ -81,13 +81,13 @@ public class TestFilghtBokking {
 	  actions.moveToElement(wb).build().perform();
 	  wb.click();
 	  
-	  
 	  //Select destination
 	  homePage.getDest().sendKeys(dest);
 	  Thread.sleep(2000);
 	  wb=homePage.getSelectDest();
 	  actions.moveToElement(wb).build().perform();
 	  wb.click();
+	  
 	  
 	
 	  

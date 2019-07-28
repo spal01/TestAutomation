@@ -104,3 +104,197 @@
   104  git log
   105  git push
   106  history>>git_command.txt
+    1  pwd
+    2  ls -l
+    3  pwd
+    4  exit
+    5  pwd
+    6  git init
+    7  echo "#Test Automation" >>README.md
+    8  git status
+    9  git commit -m "First Commit"
+   10  git config --global user.email "palsumanta04@gmail.com"
+   11  git config --global user.name "SUMANTA"
+   12  git commit -m "First Commit"
+   13  git add README.md
+   14  git status
+   15  git remote add origin https://github.com/spal01/TestAutomation.git
+   16  git remote -v
+   17  git push -u origin master
+   18  git remote -v
+   19  git branch sumanta_local
+   20  git branch sumanta_local
+   21  git commit -m "First Commit"
+   22  git push -u origin https://github.com/spal01/TestAutomation.git
+   23  git push origin master
+   24  git branch sumanta_local
+   25  git branch -a
+   26  git checkout sumanta_local
+   27  git pull
+   28  ls -l
+   29  git add test.txt
+   30  git commit -m "commit from local branch"
+   31  git status
+   32  git checkout master
+   33  git merge sumanta_local
+   34  ls -l
+   35  git push
+   36  git pull
+   37  ls -l
+   38  git branch --set-upstream-to=origin/master master
+   39  git pull
+   40  ls -l
+   41  git push
+   42  git checkout sumanta_local
+   43  vi local.txt
+   44  ls -l
+   45  git diff
+   46  git checkout -- local.txt
+   47  git chekout master
+   48  git checkout master
+   49  ls -l
+   50  git status
+   51  git add local.txt
+   52  git status
+   53  git log
+   54  git status
+   55  git checkout -- local.txt
+   56  git status
+   57  git reset HEAD local.txt
+   58  git status
+   59  git checkout master
+   60  git checkout sumanta_local
+   61  git status
+   62  git checkout -- local.txt
+   63  pwd
+   64  git checkout -- local.txt
+   65  ls -l
+   66  git add 
+   67  git checkout -- local.txt
+   68  git checkout -- local.txt
+   69  git add local.txt
+   70  git checkout master
+   71  git status
+   72  git commit -m "from local-master"
+   73  git log
+   74  git revert 98b40547ccd2024f46e006d034e8735c384c4919
+   75  git status
+   76  git status
+   77  git log
+   78  git status
+   79  git diff --name-only --cached
+   80  git diff --name-only
+   81  git checkout sumanta_local
+   82  git status
+   83  git checkout master
+   84  git push
+   85  ls -l
+   86  git checkout -- TestData.txt
+   87  git add TestData.txt
+   88  git diff --name-only --cached
+   89  git diff --name-only --cached
+   90  git checkout -- TestData.txt
+   91  git checkout -- TestData.txt
+   92  git status
+   93  git reset HEAD TestData.txt
+   94  git status
+   95  git add TestData.txt
+   96  git commit -m "Second commit"
+   97  git diff --name-only --cached
+   98  git status
+   99  git log
+  100  ls -l
+  101  git add TestData.txt
+  102  git commit -m "3rd commit"
+  103  git log
+  104  git push
+  105  history>>git_command.txt
+  106  git add *
+  107  git status
+  108  git commit -m "all java code from work space"
+  109  git push
+  110  git pull
+  111  git push
+  112  exit
+  113  git clone https://github.com/spal01/TestAutomation.git
+  114  cd TestAutomation/
+  115  git pull
+  116  git status
+  117  git status
+  118  git add T2.txt
+  119  git commit -m "1st commit"
+  120  git status
+  121  git push
+  122  git branch local1
+  123  git checkout local1
+  124  git pull
+  125  git checkout master
+  126  git merge local1
+  127  git checkout local1
+  128  git pull
+  129  git status
+  130  git checkout master
+  131  git status
+  132  git checkout local1
+  133  git pull
+  134  git branch --set-upstream-to=origin/master local1
+  135  git pull
+  136  git push
+  137  git push origin HEAD:master
+  138  git status
+  139  git add t3,txt
+  140  git status
+  141  git add t3.txt
+  142  git status
+  143  git commit -m "2nd comit"
+  144  git push origin HEAD:master
+  145  git push
+  146  git checkout master
+  147  git status
+  148  git push
+  149  git commit -m "3rd comit"
+  150  git push
+  151  ls -l
+  152  git merge local1
+  153  ls -l
+  154  git status
+  155  git push
+  156  git branch local2
+  157  git checkou local3
+  158  git checkout local3
+  159  git checkout local2
+  160  cls
+  161  clear
+  162  git status
+  163  git add T4.txt
+  164  git diff --name-only -cache
+  165  git diff --name-only --cache
+  166  git diff --name-only --cached
+  167  git reset HEAD T4.txt
+  168  git diff --name-only --cached
+  169  git status
+  170  git add T4.txt
+  171  git commit -m "4th commit"
+  172  git log
+  173  git push
+  174  git remote -v
+  175   git push --set-upstream origin local2
+  176  git status
+  177  git checkout master
+  178  git merge local2
+  179  git status
+  180  git push
+  181  git checkkout local2
+  182  git checkout local2
+  183  git add T5.txt
+  184  git commit -m "5th comit"
+  185  git push
+  186  git status
+  187  git add  MachineTest/src/test/java/com/date/DateOperation.java
+  188  git diff --name-only --cached
+  189  git commit -m "Year extraction"
+  190  git push
+  191  git pull
+  192  git pull
+  193  git branch -a
+  194  history >> git_command.txt
